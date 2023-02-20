@@ -60,5 +60,11 @@ fn datatypes() {
 }
 
 fn basic_math() {
-
+    let n: f32 = 75.0;
+    let m: f32 = 34.0;
+    println!("{} + {} = {}", n, m, n + m);
+    println!("{} - {} = {}", n, m, n - m);
+    println!("{} * {} = {}", n, m, n * m);
+    println!("{} / {} = {}", n, m, n / m);
+    println!("{} % {} = {}", n, m, n % m);
 }
